@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		726507D242B1DC1D92FF69C6 /* Pods_TVShows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D2AAF0B705B55530E9C5EE /* Pods_TVShows.framework */; };
+		D04FFCBE21498C570063B7F9 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCBD21498C570063B7F9 /* Show.swift */; };
+		D04FFCC2214997810063B7F9 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCC1214997810063B7F9 /* ShowDetailsViewController.swift */; };
+		D04FFCC4214998910063B7F9 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCC3214998910063B7F9 /* Episode.swift */; };
+		D04FFCC621499B600063B7F9 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCC521499B600063B7F9 /* EpisodeTableViewCell.swift */; };
+		D04FFCC821499EFB0063B7F9 /* EpisodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCC721499EFB0063B7F9 /* EpisodeDetailsViewController.swift */; };
+		D04FFCCA2149AA9F0063B7F9 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCC92149AA9F0063B7F9 /* CommentsViewController.swift */; };
+		D04FFCCC2149AD340063B7F9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCCB2149AD340063B7F9 /* Comment.swift */; };
+		D04FFCCE2149AF270063B7F9 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCCD2149AF270063B7F9 /* CommentTableViewCell.swift */; };
+		D04FFCD02149B9540063B7F9 /* NoCommentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04FFCCF2149B9540063B7F9 /* NoCommentsView.xib */; };
+		D04FFCD22149BA430063B7F9 /* NoCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCD12149BA430063B7F9 /* NoCommentsView.swift */; };
+		D04FFCD8214A58D90063B7F9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCD7214A58D90063B7F9 /* Helper.swift */; };
+		D04FFCDA214A5A6C0063B7F9 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCD9214A5A6C0063B7F9 /* APIHelper.swift */; };
+		D04FFCE0214A9F340063B7F9 /* AddEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FFCDF214A9F340063B7F9 /* AddEpisodeViewController.swift */; };
 		D066031021492EED00432AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D066030F21492EED00432AD8 /* AppDelegate.swift */; };
-		D066031221492EED00432AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D066031121492EED00432AD8 /* ViewController.swift */; };
 		D066031521492EED00432AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D066031321492EED00432AD8 /* Main.storyboard */; };
 		D066031721492EEE00432AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D066031621492EEE00432AD8 /* Assets.xcassets */; };
 		D066031A21492EEE00432AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D066031821492EEE00432AD8 /* LaunchScreen.storyboard */; };
+		D06603222149346300432AD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06603212149346300432AD8 /* LoginViewController.swift */; };
+		D066032421496AE800432AD8 /* ShowsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D066032321496AE800432AD8 /* ShowsTableViewController.swift */; };
+		D066032621496BBE00432AD8 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D066032521496BBE00432AD8 /* ShowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EF2BD3DBE39882A80C29E96 /* Pods-TVShows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVShows/Pods-TVShows.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D2AAF0B705B55530E9C5EE /* Pods_TVShows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVShows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C052CF6D052FA91E4A463 /* Pods-TVShows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVShows/Pods-TVShows.release.xcconfig"; sourceTree = "<group>"; };
+		D04FFCBD21498C570063B7F9 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		D04FFCC1214997810063B7F9 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		D04FFCC3214998910063B7F9 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		D04FFCC521499B600063B7F9 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		D04FFCC721499EFB0063B7F9 /* EpisodeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewController.swift; sourceTree = "<group>"; };
+		D04FFCC92149AA9F0063B7F9 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		D04FFCCB2149AD340063B7F9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D04FFCCD2149AF270063B7F9 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		D04FFCCF2149B9540063B7F9 /* NoCommentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoCommentsView.xib; sourceTree = "<group>"; };
+		D04FFCD12149BA430063B7F9 /* NoCommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCommentsView.swift; sourceTree = "<group>"; };
+		D04FFCD7214A58D90063B7F9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D04FFCD9214A5A6C0063B7F9 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		D04FFCDF214A9F340063B7F9 /* AddEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEpisodeViewController.swift; sourceTree = "<group>"; };
 		D066030C21492EED00432AD8 /* TVShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D066030F21492EED00432AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D066031121492EED00432AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D066031421492EED00432AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D066031621492EEE00432AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D066031921492EEE00432AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D066031B21492EEE00432AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06603212149346300432AD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D066032321496AE800432AD8 /* ShowsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsTableViewController.swift; sourceTree = "<group>"; };
+		D066032521496BBE00432AD8 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726507D242B1DC1D92FF69C6 /* Pods_TVShows.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		705CDF454AEAE7B73424CD47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF2BD3DBE39882A80C29E96 /* Pods-TVShows.debug.xcconfig */,
+				CB4C052CF6D052FA91E4A463 /* Pods-TVShows.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C430B705A87B29CBEBB5B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D2AAF0B705B55530E9C5EE /* Pods_TVShows.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04FFCD3214A58810063B7F9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D06603212149346300432AD8 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D04FFCD4214A588A0063B7F9 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				D066032321496AE800432AD8 /* ShowsTableViewController.swift */,
+				D04FFCBD21498C570063B7F9 /* Show.swift */,
+				D04FFCC1214997810063B7F9 /* ShowDetailsViewController.swift */,
+				D066032521496BBE00432AD8 /* ShowTableViewCell.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		D04FFCD5214A58920063B7F9 /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+				D04FFCC3214998910063B7F9 /* Episode.swift */,
+				D04FFCC521499B600063B7F9 /* EpisodeTableViewCell.swift */,
+				D04FFCC721499EFB0063B7F9 /* EpisodeDetailsViewController.swift */,
+				D04FFCDF214A9F340063B7F9 /* AddEpisodeViewController.swift */,
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		D04FFCD6214A589A0063B7F9 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				D04FFCCB2149AD340063B7F9 /* Comment.swift */,
+				D04FFCC92149AA9F0063B7F9 /* CommentsViewController.swift */,
+				D04FFCCD2149AF270063B7F9 /* CommentTableViewCell.swift */,
+				D04FFCCF2149B9540063B7F9 /* NoCommentsView.xib */,
+				D04FFCD12149BA430063B7F9 /* NoCommentsView.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
 		D066030321492EED00432AD8 = {
 			isa = PBXGroup;
 			children = (
 				D066030E21492EED00432AD8 /* TVShows */,
 				D066030D21492EED00432AD8 /* Products */,
+				705CDF454AEAE7B73424CD47 /* Pods */,
+				9C430B705A87B29CBEBB5B01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +150,13 @@
 		D066030E21492EED00432AD8 /* TVShows */ = {
 			isa = PBXGroup;
 			children = (
+				D04FFCD7214A58D90063B7F9 /* Helper.swift */,
+				D04FFCD9214A5A6C0063B7F9 /* APIHelper.swift */,
+				D04FFCD3214A58810063B7F9 /* Login */,
+				D04FFCD4214A588A0063B7F9 /* Show */,
+				D04FFCD5214A58920063B7F9 /* Episode */,
+				D04FFCD6214A589A0063B7F9 /* Comment */,
 				D066030F21492EED00432AD8 /* AppDelegate.swift */,
-				D066031121492EED00432AD8 /* ViewController.swift */,
 				D066031321492EED00432AD8 /* Main.storyboard */,
 				D066031621492EEE00432AD8 /* Assets.xcassets */,
 				D066031821492EEE00432AD8 /* LaunchScreen.storyboard */,
@@ -71,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D066031E21492EEE00432AD8 /* Build configuration list for PBXNativeTarget "TVShows" */;
 			buildPhases = (
+				8F2A9AD016EED76C3BB1B8BA /* [CP] Check Pods Manifest.lock */,
 				D066030821492EED00432AD8 /* Sources */,
 				D066030921492EED00432AD8 /* Frameworks */,
 				D066030A21492EED00432AD8 /* Resources */,
+				E194591331C1775C47F20077 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D066031A21492EEE00432AD8 /* LaunchScreen.storyboard in Resources */,
+				D04FFCD02149B9540063B7F9 /* NoCommentsView.xib in Resources */,
 				D066031721492EEE00432AD8 /* Assets.xcassets in Resources */,
 				D066031521492EED00432AD8 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +234,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F2A9AD016EED76C3BB1B8BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVShows-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E194591331C1775C47F20077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TVShows/Pods-TVShows-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVShows/Pods-TVShows-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D066030821492EED00432AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D066031221492EED00432AD8 /* ViewController.swift in Sources */,
+				D066032421496AE800432AD8 /* ShowsTableViewController.swift in Sources */,
+				D04FFCD8214A58D90063B7F9 /* Helper.swift in Sources */,
+				D04FFCC621499B600063B7F9 /* EpisodeTableViewCell.swift in Sources */,
+				D04FFCDA214A5A6C0063B7F9 /* APIHelper.swift in Sources */,
+				D06603222149346300432AD8 /* LoginViewController.swift in Sources */,
+				D04FFCC4214998910063B7F9 /* Episode.swift in Sources */,
+				D066032621496BBE00432AD8 /* ShowTableViewCell.swift in Sources */,
+				D04FFCC821499EFB0063B7F9 /* EpisodeDetailsViewController.swift in Sources */,
+				D04FFCBE21498C570063B7F9 /* Show.swift in Sources */,
+				D04FFCCE2149AF270063B7F9 /* CommentTableViewCell.swift in Sources */,
+				D04FFCE0214A9F340063B7F9 /* AddEpisodeViewController.swift in Sources */,
+				D04FFCC2214997810063B7F9 /* ShowDetailsViewController.swift in Sources */,
+				D04FFCCA2149AA9F0063B7F9 /* CommentsViewController.swift in Sources */,
+				D04FFCCC2149AD340063B7F9 /* Comment.swift in Sources */,
+				D04FFCD22149BA430063B7F9 /* NoCommentsView.swift in Sources */,
 				D066031021492EED00432AD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +445,7 @@
 		};
 		D066031F21492EEE00432AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF2BD3DBE39882A80C29E96 /* Pods-TVShows.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,12 +458,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.petra15.TVShows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D066032021492EEE00432AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4C052CF6D052FA91E4A463 /* Pods-TVShows.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.petra15.TVShows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
